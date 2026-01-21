@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "category": "DevOps",
+    "question": "What does CI/CD stand for?",
+    "options": [
+      "Continuous Integration/Continuous Deployment",
+      "Computer Integration/Computer Deployment",
+      "Code Integration/Code Deployment",
+      "Central Integration/Central Deployment"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CI/CD stands for Continuous Integration and Continuous Deployment/Delivery, which are practices that automate the software delivery process."
+  },
+  {
+    "id": 2,
+    "category": "DevOps",
+    "question": "Which tool is commonly used for container orchestration?",
+    "options": [
+      "Jenkins",
+      "Kubernetes",
+      "Git",
+      "Ansible"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Kubernetes is the most widely used container orchestration platform for automating deployment, scaling, and management of containerized applications."
+  },
+  {
+    "id": 3,
+    "category": "DevOps",
+    "question": "What is Infrastructure as Code (IaC)?",
+    "options": [
+      "Writing code inside infrastructure",
+      "Managing infrastructure through code and automation",
+      "Building physical servers with code",
+      "A programming language for servers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "IaC is the practice of managing and provisioning infrastructure through machine-readable definition files rather than manual processes."
+  },
+  {
+    "id": 4,
+    "category": "Cloud",
+    "question": "Which of these is NOT a major cloud provider?",
+    "options": [
+      "AWS",
+      "Azure",
+      "Google Cloud",
+      "Oracle Linux"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Oracle Linux is an operating system, not a cloud provider. Oracle does have Oracle Cloud Infrastructure (OCI) as their cloud platform."
+  },
+  {
+    "id": 5,
+    "category": "Cloud",
+    "question": "What does S3 stand for in AWS S3?",
+    "options": [
+      "Simple Storage Service",
+      "Secure Storage System",
+      "Server Storage Service",
+      "Standard Storage Solution"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Amazon S3 stands for Simple Storage Service, which is an object storage service offering scalability, data availability, and security."
+  },
+  {
+    "id": 6,
+    "category": "Cloud",
+    "question": "What is a VPC in cloud computing?",
+    "options": [
+      "Virtual Private Cloud",
+      "Virtual Public Cloud",
+      "Virtual Protected Computer",
+      "Very Private Cloud"
+    ],
+    "correctAnswer": 0,
+    "explanation": "VPC stands for Virtual Private Cloud, which is a logically isolated section of the cloud where you can launch resources in a virtual network."
+  },
+  {
+    "id": 7,
+    "category": "Linux",
+    "question": "Which command is used to change file permissions in Linux?",
+    "options": [
+      "chown",
+      "chmod",
+      "chgrp",
+      "chperm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "chmod (change mode) is used to change file permissions, while chown changes ownership and chgrp changes group ownership."
+  },
+  {
+    "id": 8,
+    "category": "Linux",
+    "question": "What does the 'grep' command do?",
+    "options": [
+      "Creates files",
+      "Searches for patterns in text",
+      "Compresses files",
+      "Lists directories"
+    ],
+    "correctAnswer": 1,
+    "explanation": "grep (Global Regular Expression Print) searches for patterns in text files and outputs matching lines."
+  },
+  {
+    "id": 9,
+    "category": "Linux",
+    "question": "Which directory contains system configuration files in Linux?",
+    "options": [
+      "/bin",
+      "/etc",
+      "/var",
+      "/usr"
+    ],
+    "correctAnswer": 1,
+    "explanation": "/etc contains system-wide configuration files. /bin has essential binaries, /var has variable data, and /usr has user programs."
+  },
+  {
+    "id": 10,
+    "category": "Docker",
+    "question": "What is a Docker container?",
+    "options": [
+      "A virtual machine",
+      "A lightweight, standalone executable package",
+      "A type of database",
+      "A cloud server"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A Docker container is a lightweight, standalone, executable package that includes everything needed to run a piece of software."
+  },
+  {
+    "id": 11,
+    "category": "Docker",
+    "question": "Which file defines how to build a Docker image?",
+    "options": [
+      "docker-compose.yml",
+      "Dockerfile",
+      "package.json",
+      "config.yml"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A Dockerfile contains instructions for building a Docker image. docker-compose.yml is used for defining multi-container applications."
+  },
+  {
+    "id": 12,
+    "category": "Docker",
+    "question": "What command runs a Docker container?",
+    "options": [
+      "docker start",
+      "docker run",
+      "docker exec",
+      "docker create"
+    ],
+    "correctAnswer": 1,
+    "explanation": "docker run creates and starts a container. docker start starts an existing stopped container, and docker exec runs a command in a running container."
+  },
+  {
+    "id": 13,
+    "category": "Kubernetes",
+    "question": "What is a Pod in Kubernetes?",
+    "options": [
+      "A cluster of servers",
+      "The smallest deployable unit",
+      "A type of service",
+      "A storage volume"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A Pod is the smallest deployable unit in Kubernetes and can contain one or more containers that share storage and network resources."
+  },
+  {
+    "id": 14,
+    "category": "Kubernetes",
+    "question": "What does kubectl do?",
+    "options": [
+      "Builds containers",
+      "Command-line tool for Kubernetes",
+      "Monitors servers",
+      "Creates virtual machines"
+    ],
+    "correctAnswer": 1,
+    "explanation": "kubectl is the command-line tool for interacting with Kubernetes clusters, allowing you to deploy applications, inspect resources, and view logs."
+  },
+  {
+    "id": 15,
+    "category": "Kubernetes",
+    "question": "What is a Kubernetes Deployment?",
+    "options": [
+      "A single container",
+      "A declarative way to manage Pods and ReplicaSets",
+      "A networking component",
+      "A storage solution"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A Deployment provides declarative updates for Pods and ReplicaSets, managing the desired state of your application."
+  },
+  {
+    "id": 16,
+    "category": "Git",
+    "question": "What does 'git clone' do?",
+    "options": [
+      "Creates a new branch",
+      "Copies a repository to your local machine",
+      "Merges two branches",
+      "Deletes a repository"
+    ],
+    "correctAnswer": 1,
+    "explanation": "git clone creates a copy of an existing repository on your local machine, including all files, branches, and commit history."
+  },
+  {
+    "id": 17,
+    "category": "Git",
+    "question": "What is a pull request?",
+    "options": [
+      "Downloading code from a repository",
+      "A request to merge changes into a branch",
+      "Pulling a Docker image",
+      "Requesting access to a repository"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A pull request is a method of submitting contributions to a project, requesting that your changes be reviewed and merged into another branch."
+  },
+  {
+    "id": 18,
+    "category": "Git",
+    "question": "Which command stages changes for commit?",
+    "options": [
+      "git commit",
+      "git push",
+      "git add",
+      "git stage"
+    ],
+    "correctAnswer": 2,
+    "explanation": "git add stages changes to be included in the next commit. git commit then records those staged changes."
+  },
+  {
+    "id": 19,
+    "category": "Networking",
+    "question": "What port does HTTPS typically use?",
+    "options": [
+      "80",
+      "443",
+      "22",
+      "8080"
+    ],
+    "correctAnswer": 1,
+    "explanation": "HTTPS uses port 443 by default. Port 80 is for HTTP, port 22 is for SSH, and 8080 is commonly used as an alternative HTTP port."
+  },
+  {
+    "id": 20,
+    "category": "Networking",
+    "question": "What does DNS stand for?",
+    "options": [
+      "Domain Name System",
+      "Digital Network Service",
+      "Data Name Server",
+      "Dynamic Network System"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DNS (Domain Name System) translates human-readable domain names into IP addresses that computers use to identify each other."
+  }
+]

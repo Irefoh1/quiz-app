@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevOps Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🚀 DevOps Quiz</h1>
+      <p>Test your DevOps and Cloud knowledge!</p>
+    </header>
+
+    <!-- Start Screen -->
+    <div id="start-screen" class="screen active">
+      <div class="card">
+        <h2>Welcome!</h2>
+        <p>Select a category and number of questions to begin.</p>
+        
+        <div class="form-group">
+          <label for="category">Category:</label>
+          <select id="category">
+            <option value="">All Categories</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="num-questions">Number of Questions:</label>
+          <select id="num-questions">
+            <option value="5">5 Questions</option>
+            <option value="10" selected>10 Questions</option>
+            <option value="15">15 Questions</option>
+            <option value="20">20 Questions</option>
+          </select>
+        </div>
+        
+        <button id="start-btn" class="btn btn-primary">Start Quiz</button>
+      </div>
+      
+      <div class="stats-card">
+        <h3>📊 Quiz Statistics</h3>
+        <div id="stats"></div>
+      </div>
+    </div>
+
+    <!-- Quiz Screen -->
+    <div id="quiz-screen" class="screen">
+      <div class="progress-bar">
+        <div id="progress" class="progress"></div>
+      </div>
+      
+      <div class="quiz-info">
+        <span id="question-number">Question 1/10</span>
+        <span id="category-badge" class="badge">Category</span>
+      </div>
+      
+      <div class="card question-card">
+        <h2 id="question-text">Question goes here?</h2>
+        <div id="options" class="options"></div>
+      </div>
+      
+      <div class="quiz-actions">
+        <button id="next-btn" class="btn btn-primary" disabled>Next Question</button>
+      </div>
+    </div>
+
+    <!-- Result Screen -->
+    <div id="result-screen" class="screen">
+      <div class="card result-card">
+        <h2>Quiz Complete! 🎉</h2>
+        <div class="score-circle">
+          <span id="score-percentage">0%</span>
+        </div>
+        <p id="score-text">You scored 0 out of 10</p>
+        <p id="score-message"></p>
+        
+        <div class="result-actions">
+          <button id="review-btn" class="btn btn-secondary">Review Answers</button>
+          <button id="restart-btn" class="btn btn-primary">Play Again</button>
+        </div>
+      </div>
+      
+      <div id="review-section" class="review-section hidden">
+        <h3>📝 Answer Review</h3>
+        <div id="review-list"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Built for DevOps CI/CD Portfolio Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

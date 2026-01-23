@@ -127,7 +127,7 @@ jobs:
           cache-to: type=gha,mode=max
 
 
-  # Job 6: Deploy to Staging (Vercel handles this automatically)
+  # Job 5: Deploy to Staging (Vercel handles this automatically)
   deploy-staging:
     name: Deploy to Staging
     runs-on: ubuntu-latest
@@ -141,7 +141,7 @@ jobs:
           echo "✅ Vercel automatically deploys on push to main"
           echo "🔗 Check deployment at: https://vercel.com/dashboard"
 
-  # Job 7: Production is same as staging with Vercel's GitHub integration
+  # Job 6: Production is same as staging with Vercel's GitHub integration
   deploy-production:
     name: Deploy to Production
     runs-on: ubuntu-latest

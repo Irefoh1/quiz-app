@@ -50,8 +50,11 @@ This project includes a complete CI/CD pipeline with:
 4. **Docker Build** - Container image creation
 6. **Deployment** - Staging and Production
 
+This application is running in at
+https://quiz-app-app.vercel.app/
+
 ### License
 MIT
 
 For more insights, please reach out to me on linkedin 
-`www.linkedin.com/in/irefohanuwa`
+https://www.linkedin.com/in/irefohanuwa

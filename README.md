@@ -27,7 +27,31 @@ A simple quiz application to test your DevOps and Cloud knowledge. Built for dem
 
 ### Installation
 
-```bash
 git clone https://github.com/YOUR_USERNAME/quiz-app.git
 cd quiz-app
-npm install
+npm install 
+
+
+### Running Locally
+``` npm start ```
+
+Visit http://localhost:3000
+
+### Running With Docker 
+```docker build -t quiz-app . ```
+```docker run -p 3000:3000 quiz-app ```
+
+### CI/CD Pipeline
+This project includes a complete CI/CD pipeline with:
+
+1. **Linting**- Code quality checks
+2. **Testing** - Automated unit tests
+3. **Security Scanning** - Vulnerability checks
+4. **Docker Build** - Container image creation
+6. **Deployment** - Staging and Production
+
+### License
+MIT
+
+For more insights, please reach out to me on linkedin 
+`www.linkedin.com/in/irefohanuwa`
